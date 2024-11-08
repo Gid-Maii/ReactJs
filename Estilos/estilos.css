@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7bfd0;
+}
+
+header {
+    background-color: rgb(216, 193, 154); 
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    color: #343a40;
+}
+
+.nav-link:hover {
+    color: #badcf6;
+}
+
+/*carrusel */
+.carousel {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    background-color: rgba(27, 9, 9, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.carousel-caption h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.productos-destacados {
+    margin-top: 40px;
+    background-color: #a7bfd0;
+}
+
+.productos-destacados h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #565656;
+}
+
+/*botón */
+.btn-primary {
+    background-color: #d6e0d4;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a7bfd0;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    color: #a7bfd0;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #343a40;
+}
+
+/* títulos en el carrusel */
+.text-center-mt-4 {
+    color: rgb(123, 98, 61);
+}
+
+/*botón del carrito */
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #343a40;
+}
+
+/* Ajuste responsivo para el logo */
+img.img-fluid {
+    max-height: 20px
+    px;
+}
+.text-white{
+    background-color: blue;
+    position: relative;
+}
+
+.container-mt-5{
+    border-radius: 3px;
+    border-color: rgb(165, 165, 59);
+    background-color: rgb(192, 213, 34);
+}
